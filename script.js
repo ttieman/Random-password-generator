@@ -24,7 +24,7 @@ function lengthPrompt(){
       alert("Please enter a value between 8 and 128!");
       lengthPrompt();                                               
   } else{
-    value = userInput.passwordLength;         // this determins the length of the string based on used input
+    userInput.passwordLength = value;         // this determins the length of the string based on used input
     return userInput.passwordLength;
   }
 }
